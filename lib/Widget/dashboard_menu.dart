@@ -5,6 +5,7 @@ import 'package:aplikasi_mobile_kp_saya/Screen/dasboard.dart';
 import 'package:aplikasi_mobile_kp_saya/Screen/daftar_makanan.dart';
 import 'package:aplikasi_mobile_kp_saya/Screen/distribusi.dart';
 import 'package:aplikasi_mobile_kp_saya/Screen/daftar_stock_makanan.dart';
+import 'package:aplikasi_mobile_kp_saya/Screen/monitoring.dart';
 import 'package:flutter/material.dart';
 
 Widget dashboardMenu(BuildContext context) {
@@ -29,7 +30,7 @@ Widget dashboardMenu(BuildContext context) {
               // Monitoring
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => DasboardScreen()),
+                MaterialPageRoute(builder: (context) => HalamanMonitoring()),
               );
             } else if (a == 1) {
               showDialog(
